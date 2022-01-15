@@ -1,11 +1,13 @@
 # Set SOURCES variable
 set(SOURCES
   wiringPi.cpp
+  wiringPiI2C.cpp
 )
 
 # Set HEADERS_PUBLIC variable (public headers, included in the library)
 set(HEADERS_PUBLIC
   wiringPi.h
+  wiringPiI2C.h 
 )
 
 # Set HEADERS_PRIVATE variable, if needed.

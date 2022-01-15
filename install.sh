@@ -48,16 +48,14 @@ echo ""
 
 
 # clean
-# rm -fr ${BUILD_DIR} ${INSTALL_DIR}
+rm -fr ${BUILD_DIR} ${INSTALL_DIR}
 
 # cmake
-cmake \
-    -S . \
-    -B ${BUILD_DIR} \
-    -DCMAKE_BUILD_TYPE=${BUILD_TYPE} \
+mkdir ${BUILD_DIR}
+cd ${BUILD_DIR}
+cmake ../.
 
 # compile & install
 cmake \
-    --build ${BUILD_DIR} \
-    --target install \
-    -j ${nproc}
+    --build . \
+    --target install
