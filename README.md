@@ -1,7 +1,4 @@
-# WiringPi-mock 
-
-![CI](https://github.com/iwishiwasaneagle/wiringPi-mock/workflows/CI/badge.svg) 
-![Docs](https://github.com/iwishiwasaneagle/wiringPi-mock/workflows/Docs/badge.svg)
+# WiringPi-mock with i2c support
 
  > Continuation of [iwishiwasaneagle/wiringPi-mock](https://github.com/iwishiwasaneagle/wiringPi-mock) with added i2c functionalities. 
 
